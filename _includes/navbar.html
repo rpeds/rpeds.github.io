@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-red">
+  <a class="navbar-brand" href="/">rpeds.org</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      {% for item in site.data.navigation %}
+        {% assign active-class = nil %}
+        {% if page.url == item.url %}
+          {% assign active-class = 'active' %}
+        {% endif %}
+        <li class="nav-item">
+          <a class="nav-link {{ active-class }}" href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Project Workplaces
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">IT Infrastructure</a>
+          <a class="dropdown-item" href="#">Ipeds Identity</a>
+          <a class="dropdown-item" href="#">Ipeds Database</a>
+          <a class="dropdown-item" href="#">Other Sources</a>
+          <a class="dropdown-item" href="#">Someday Maybe</a>
+        </div>
+      </li> -->
+    </ul>
+  </div>
+</nav>

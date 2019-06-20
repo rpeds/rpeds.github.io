@@ -1,0 +1,44 @@
+---
+---
+
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import 'jekyll-theme-dinky';
+
+
+
+.top-section{
+  background-image: url('../images/red\ bg.jpg');
+  background-size: cover;
+  filter: grayscale(35%);
+}
+
+.page-header{
+  font-size: 48px;
+  font-weight: bold;
+}
+.top-section-content, .page-header{
+  padding: 56px 0;
+}
+.top-section-content h3{
+  color: #eee;
+}
+.top-section-content p{
+  color: #eee;
+}
+
+.bg-red{
+  background-color: #b62d2d;
+}
+.nav-link{
+  font-weight: bold;
+}
+.navbar-brand{
+  font-family: Arvo, Monaco, serif;
+}
+.dropdown-menu{
+  overflow:hidden !important;
+}
+
+.footnotes{
+  font-size:11px;
+}

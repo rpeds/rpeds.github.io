@@ -1,0 +1,24 @@
+{
+  "name": "rpeds.github.io",
+  "version": "1.0.0",
+  "description": "... Reenvisioned Public [Open] Education Data Syndicate... Repository of Public Exploratory Data Sources ... An informal group of data wonks collectively working to develop a lightweight database containing open demographic and education data to streamline cleaning, direct queries, and analysis for experienced data users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpeds/rpeds.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpeds/rpeds.github.io/issues"
+  },
+  "homepage": "https://github.com/rpeds/rpeds.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
