@@ -15,5 +15,5 @@ Topical data will initially focus on post-secondary education, population demogr
 
 ## Use the menu at the top to navigate the RPEDS site, including:
 
--   [**The full RPEDS vision statement**](https://sites.google.com/wsac.wa.gov/rpeds/vision?authuser=0), including overviews on IPEDS, high-level SWOT, databases, and partners.
+-   [**The full RPEDS vision statement**](/vision/), including overviews on IPEDS, high-level SWOT, databases, and partners.
 -   **Project component workspaces**
