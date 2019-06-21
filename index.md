@@ -11,7 +11,7 @@ The RPEDS database will be consistent, authoritative, and centrally stored in or
 
 While starting in the State of Washington, RPEDS will also include data for states and frequently used geographies to allow both for comparison/benchmarking and the potential to open database access to researchers in other states.
 
-Topical data will initially focus on post-secondary education, population demographics, and workforce, beginning with the U.S. Census Bureau, Department of Education’s IPEDS survey, and the Veterans Administration GI Bill Lookup Tool.
+Topical data will initially focus on post-secondary education, population demographics, and workforce, beginning with the Department of Education’s IPEDS survey, U.S. Census Bureau, and the Veterans Administration GI Bill Lookup Tool.
 
 ## Use the menu at the top to navigate the RPEDS site, including:
 
